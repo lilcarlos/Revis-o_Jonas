@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    background-color: #d0e0e4;
+    
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* ---inicio header--- */
+
+header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.search input {
+    height: 25px;
+    padding-left: 5px;
+    
+}
+
+.search button {
+    background-color: #006172;
+    color: white;
+    border: none;
+    height: 31px;
+    cursor: pointer;
+
+}
+
+.search button:hover {
+    background-color: #09859a;
+}
+
+
+
+.login a{
+    color: #8a8178;
+    text-decoration: none;
+    
+}
+
+.cart {
+    display: flex;
+    background-color:#13aac5;
+    border-radius: 5px;
+}
+
+#imglogin {
+    border-radius: 30px;
+}
+
+.cart span {
+    margin-top: 10px;
+    
+}
+
+/* ---fim header--- */
+
+
+main {
+    width: 100%;
+    height: 450px;
+    background-color: black;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+
+#produtos{
+    width: 270px;
+    
+}
+
+#promocoes {
+    width: 270px;
+}
+
+#trabalhe {
+    width: 270px;
+}
+
+#contato {
+    width: 270px;
+}
+
+#duvidas {
+    width: 265px;
+}
+
+#divmenu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    background-color: #13aac5;
+}
+
+#nomeCarrinho {
+    color: black;
+}
